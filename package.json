@@ -1,0 +1,31 @@
+{
+  "name": "protocode",
+  "version": "1.0.0",
+  "description": "Library for rapidly prototyping interactive applications.",
+  "main": "dist/protocode.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "watch": "npm run build -- --watch",
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pixi.js": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.13",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "http-server": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}
