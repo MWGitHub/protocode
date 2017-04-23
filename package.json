@@ -1,5 +1,5 @@
 {
-  "name": "protocode",
+  "name": "pcode",
   "version": "0.0.1",
   "description": "Library for rapidly prototyping interactive applications.",
   "main": "dist/protocode.js",
