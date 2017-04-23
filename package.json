@@ -1,13 +1,14 @@
 {
   "name": "protocode",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Library for rapidly prototyping interactive applications.",
   "main": "dist/protocode.js",
   "scripts": {
     "build": "webpack --progress --colors",
     "watch": "npm run build -- --watch",
     "start": "http-server -p 3000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "",
